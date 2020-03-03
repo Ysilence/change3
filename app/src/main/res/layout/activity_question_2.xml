@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--  Start : Your code should be within this block -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/question_2"
+        android:layout_margin="10dp"
+        android:textSize="22sp"
+        android:textColor="@color/colorBlack"
+        android:text="@string/question_2" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/question_2_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginLeft="60dp"
+        android:textSize="18sp"
+        android:text="@string/question_2_content" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_question_2"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        >
+        <RadioButton
+            android:id="@+id/rBtn_under_1000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/under_1000" />
+
+        <RadioButton
+            android:id="@+id/rBtn_1000-1999"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/between_1000_1999" />
+
+        <RadioButton
+            android:id="@+id/rBtn_2000-2999"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/between_2000_2999" />
+
+        <RadioButton
+            android:id="@+id/rBtn_3000-3999"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/between_3000_3999" />
+
+        <RadioButton
+            android:id="@+id/rBtn_over_4000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mt_4000" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom">
+
+        <Button
+            android:id="@+id/btn_question_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorBlack"
+            android:text="@string/next" />
+    </LinearLayout>
+
+    <!-- END    : Your code should be within this block -->
+
+</LinearLayout>

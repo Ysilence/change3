@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--  Start : Your code should be within this block -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/question_6"
+        android:layout_margin="10dp"
+        android:textSize="22sp"
+        android:textColor="@color/colorBlack"
+        android:text="@string/question_6" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/question_6_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginLeft="60dp"
+        android:textSize="18sp"
+        android:text="@string/question_6_content" />
+
+    <EditText
+        android:id="@+id/ed_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom">
+
+        <Button
+            android:id="@+id/btn_question_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorBlack"
+            android:text="@string/next" />
+    </LinearLayout>
+    <!-- END    : Your code should be within this block -->
+
+</LinearLayout>
